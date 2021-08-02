@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('/img/bacg.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.container > .row > .big-box {
+    width: 850px;
+    height: 530px;
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 50px;
+    display: flex;
+}
+
+.one-box-img > img {
+    width: 450px;
+    margin: 70px 0 40px 40px;
+}
+
+.one-box-title {
+    display: inline-block;
+    padding: 0 0 0 40px;
+}
+
+.boxs {
+    display: flex;
+    color: #0066DE;
+}
+
+.title-info {
+    text-transform: uppercase;
+    color: #0066DE;
+    padding-bottom: 10px;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 5px;
+    border: 1px solid #0066DE;
+    cursor: pointer;
+}
+
+.box-two {
+    padding-top: 70px;
+    margin-left: 10px;
+}
+
+.box-two  .texts .heading-three {
+    color: #0066DE;
+    text-transform: uppercase;
+}
+
+.heading-one {
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.money {
+    color: #0066DE;
+    padding-bottom: 20px;
+}
+
+.paragraph {
+    width: 90%;
+    font-size: 19px;
+}
+
+.button > input {
+    padding: 20px 95px;
+    background-color: #0066DE;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.button > input:hover {
+    background-color: #014da3;
+}
+
+
+/* Mobile */
+
